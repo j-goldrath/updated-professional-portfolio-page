@@ -1,18 +1,17 @@
+
+/* landing/jumbotron section */
 .landing-hero{
 padding-top: 150px;
 }
 .galaxy-bg{
-/* The image used */
 background-image: url("../images/super-stary-night.jpg");
-/* Set a specific height */
 min-height: 96vh;
-
-/* Create the parallax scrolling effect */
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+
 
 .b-example-divider {
     height: 3rem;
@@ -159,6 +158,20 @@ background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  .img-card-bg-7{
+    background-image: url("https://github.com/j-goldrath/weather-dashboard/blob/main/assets/images/weather-dashboard-screenshot.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .img-card-bg-8{
+    background-image: url("https://github.com/j-goldrath/work-day-scheduler/raw/main/assets/images/work-day-scheduler-screenshot.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   
   .project-info-card{
     background-color: #fff;
@@ -170,21 +183,45 @@ background-size: cover;
     width: 100%;
     border-radius: 0px 0px 20px 20px;
   }
-
-  .grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.05); }
-
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+  transform: scale(1.05); 
+}
+.icon-grow { 
+  transition: all .1s ease-in-out; 
+}
+.icon-grow:hover { 
+  transform: scale(1.25);
+}
+.contact-icon-grow{
+  transition: all .1s ease-in-out; 
+}
+.contact-icon-grow:hover{
+  transform: scale(1.25);
+  transform-origin: left;
+}
 .project-title{
   padding-top: 7px;
   font-weight: bolder;
-
 }
 .project-description{
   margin-top: -3px;
 }
-
 .project-github-icon{
-  margin-top: -20px;
+  margin-top: -23px;
   text-decoration: none;
   color: black;
+}
+.footer-contact-icon{
+  text-decoration: none;
+}
+.contact-icon-col{
+  position: absolute;
+}
+
+.contact-icon-wrapper{
+  position: relative;
+  left: 0;
 }
